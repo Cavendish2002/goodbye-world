@@ -10,3 +10,4 @@ char* StrCpy(char* src)
      src[i] = '\0';
      return des;
 }
+//Remote edit B21031626张国昕
