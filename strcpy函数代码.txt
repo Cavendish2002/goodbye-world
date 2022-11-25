@@ -1,0 +1,12 @@
+char* StrCpy(char* src)
+{
+     char *des = new char[strlen(src)+1];
+     int i = 0;
+     while(des[i] != '\0') 
+       {
+	src[i] = des[i];
+	i++;
+       }
+     src[i] = '\0';
+     return des;
+}
